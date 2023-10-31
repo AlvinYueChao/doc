@@ -1,0 +1,66 @@
+// FT.CREATE cache_dashboard_event_detail_data ON JSON PREFIX 1 Deal:: SCHEMA $.businessline.code AS businessLineCode TEXT $.businessline.id AS businessLineId NUMERIC $.businessline.name AS businessLineName TEXT $.clientAddressId AS clientAddressId NUMERIC $.clientBankingTeamIds AS clientBankingTeamIds TEXT $.clientBankingTeamList AS clientBankingTeamList NUMERIC $.clientBankingTeamNames AS clientBankingTeamNames TEXT $.clientBusinesslines AS clientBusinesslines TEXT $.clientId AS clientId NUMERIC $.clientName AS clientName TEXT $.clientRegion AS clientRegion TEXT $.clientRegionId AS clientRegionId NUMERIC $.clientSector AS clientSector TEXT $.clientSectorId AS clientSectorId NUMERIC $.clientState AS clientState TEXT $.clientStateId AS clientStateId NUMERIC $.confidentiality AS confidentiality NUMERIC $.createdBy AS createdBy TEXT $.eventBankingTeamIds AS eventBankingTeamIds TEXT $.eventBankingTeamList AS eventBankingTeamList NUMERIC $.eventBankingTeamNames AS eventBankingTeamNames TEXT $.eventDescription AS eventDescription TEXT $.eventId AS eventId NUMERIC $.eventType AS eventType TEXT $.eventTypeCode AS eventTypeCode TEXT $.eventTypeId AS eventTypeId NUMERIC $.gfcid AS gfcid TEXT $.isConfidential AS isConfidential TEXT $.isPublic AS isPublic NUMERIC $.mappedEventTypeName AS mappedEventTypeName TEXT $.parAmount AS parAmount NUMERIC $.productProgram AS productProgram TEXT $.rownum AS rownum NUMERIC $.status.code AS statusCode TEXT $.status.id AS statusId NUMERIC $.status.name AS statusName TEXT $.versionEventId AS versionEventId NUMERIC
+
+// Deal::306559::103684
+{
+  "businessline": {
+    "code": "PFD",
+    "id": 1,
+    "name": "PFD"
+  },
+  "clientAddressId": 1000174962,
+  "clientBankingTeamIds": "12488; 111364; 84363; 71142; 8979; 13717; 12576",
+  "clientBankingTeamList": [
+    12488,
+    111364,
+    84363,
+    71142,
+    8979,
+    13717,
+    12576
+  ],
+  "clientBankingTeamNames": "Spoons, Dirk; Devries, Zach; Liou, Andrew; Greene, Emily; Atterman, Neal H; Small, Lori; Carrasco, Mario R",
+  "clientBusinesslines": [
+    "PFD"
+  ],
+  "clientId": 306559,
+  "clientName": "City Of Austin-Tx",
+  "clientRegion": "Southwest",
+  "clientRegionId": 7,
+  "clientSector": "Local Government",
+  "clientSectorId": 22,
+  "clientState": "Texas",
+  "clientStateId": 75,
+  "confidentiality": 2,
+  "createdBy": "ZD40169",
+  "eventBankingTeamIds": "111364; 12488; 84363; 71142; 28499; 8979; 13717; 12576",
+  "eventBankingTeamList": [
+    111364,
+    12488,
+    84363,
+    71142,
+    28449,
+    8979,
+    13717,
+    12576
+  ],
+  "eventBankingTeamNames": "Spoons, Dirk; Liou, Andrew; Greene, Emily; Pryce, Mark; Atterman, Neal H; Small, Lori; Carrasco, Mario R; Devries, Zach",
+  "eventDescription": "City Of Austin",
+  "eventId": 103684,
+  "eventType": "Deal",
+  "eventTypeCode": "NEG",
+  "eventTypeId": 1,
+  "gfcid": "1002543075",
+  "isConfidential": "NO",
+  "isPublic": 2,
+  "mappedEventTypeName": "Other",
+  "parAmount": 0,
+  "productProgram": "PFD",
+  "rownum": 2885,
+  "status": {
+    "code": "ACT",
+    "id": 1,
+    "name": "Active"
+  },
+  "versionEventId": 0
+}
+
